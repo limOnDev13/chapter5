@@ -10,8 +10,8 @@ async def main():
     connection = await asyncpg.connect(host='127.0.0.1',
                                        port=5432,
                                        user='postgres',
-                                       database='postgres',
-                                       password='password')
+                                       database='products',
+                                       password='vova130399')
 
     '''
     Создаем список sql - команд, которые заранее
